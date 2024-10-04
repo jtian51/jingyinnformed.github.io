@@ -1,0 +1,30 @@
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+title: [Jingyi Tian]
+description: [Postdoctoral Fellow
+Bauer Human-Centered AI Institute, Univeristy of Houston]
+email: jtian6@central.uh.edu
+logo: IMG_3587.JPG
+color-scheme: auto
+favicon: true
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+
+platforms:
+  - name: LinkedIn
+    icon: <i class="fa-brands fa-linkedin"></i>
+    link: https://www.linkedin.com/in/jingyijoy
+
+navigation:
+  - name: Contents
+    link: ./
+    sublist:
+      - name: CV
+        link: ./#CV
+      - name: Research
+        link: ./#Research
